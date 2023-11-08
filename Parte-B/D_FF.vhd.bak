@@ -1,0 +1,21 @@
+Library IEEE;
+Use iee.std_logic_1164.all;
+Use iee.std_logic_arith.all;
+Use iee.std_logic_unsigned.all;
+
+Entity D_FF is 
+Port
+   (D, CLOK : in std_logic;
+	 Q       : out std_logic);
+end D_FF;
+
+Architecture behavioral of D_FF is 
+begin 
+process(CLOK)
+begin
+if(CLOCK='1' and CLOCK'EVENT) then 
+Q <= D;
+end if;
+end process;
+end behavioral;
+

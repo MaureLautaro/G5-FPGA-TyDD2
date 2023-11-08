@@ -1,0 +1,17 @@
+Library IEEE;
+Use IEEE.STD_LOGIC_1164;
+
+Entity ej_combinacional is
+    Port (
+     SW1 : std_logic;
+     SW2 : std_logic; 
+     LED : std_logic 		 
+	      );
+End ej_combinacional;
+
+Architecture Behavioral of ej_combinacional is
+Begin 
+LED <= not (SW1 and SW2);
+end Behavioral;
+			
+	 

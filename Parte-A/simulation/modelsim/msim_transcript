@@ -1,0 +1,32 @@
+# Reading C:/Users/Lautaro21/Downloads/Programas PC/Quartus 13.0.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Parte-A_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\Users\Lautaro21\Downloads\Programas PC\Quartus 13.0.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\Users\Lautaro21\Downloads\Programas PC\Quartus 13.0.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/Lautaro21/Desktop/Parte-A/ej_combinacional.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ej_combinacional
+# -- Compiling architecture Behavioral of ej_combinacional
+# 
+# vcom -93 -work work {C:/Users/Lautaro21/Desktop/Parte-A/ej_combinacional_testbench.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Compiling architecture Behavioral of ej_combinacional_testbench
+# ** Error: (vcom-11) Could not find work.ej_combinacional_testbench.
+# 
+# ** Error: C:/Users/Lautaro21/Desktop/Parte-A/ej_combinacional_testbench.vhd(1): VHDL Compiler exiting
+# ** Error: C:/Users/Lautaro21/Downloads/Programas PC/Quartus 13.0.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./Parte-A_run_msim_rtl_vhdl.do line 10
+# C:/Users/Lautaro21/Downloads/Programas PC/Quartus 13.0.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {C:/Users/Lautaro21/Desktop/Parte-A/ej_combinacional_testbench.vhd}"
